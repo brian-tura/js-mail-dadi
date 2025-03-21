@@ -21,3 +21,14 @@ else{
 let diceBot = Math.floor(Math.random() * 5) + 1;
 let dicePlayer = Math.floor(Math.random() * 5) + 1;
 
+if(dicePlayer > diceBot){
+    console.log("Hai vinto!");
+}
+else if(dicePlayer == diceBot){
+    console.log("Hai pareggiato");
+}
+else{
+    console.log("Hai perso");
+}
+
+console.log("Il to numero: " + dicePlayer, "Il numero del bot: " + diceBot);
