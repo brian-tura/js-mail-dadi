@@ -18,8 +18,8 @@ else{
 }
 
 // Esercizio Dadi
-let diceBot = Math.floor(Math.random() * 5) + 1;
-let dicePlayer = Math.floor(Math.random() * 5) + 1;
+let diceBot = Math.floor(Math.random() * 6) + 1;
+let dicePlayer = Math.floor(Math.random() * 6) + 1;
 
 if(dicePlayer > diceBot){
     console.log("Hai vinto!");
