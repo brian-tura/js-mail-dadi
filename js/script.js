@@ -1,10 +1,10 @@
 // Esercizio Mail
 
-const mail = ["ginopippo@gmail.com", "nonhocreativita@gmail.com", "sonostancocapogmail.com"];
+const mail = ["ginopippo@gmail.com", "nonhocreativita@gmail.com", "sonostancocapo@gmail.com"];
 let mailUtente = prompt("Inserisci la tua mail");
 let mailCheck = false
 
-for(let i = 0; i<mail.length; i++) {
+for(let i = 0; i < mail.length; i++) {
     if(mailUtente === mail[i]){
         mailCheck = true;
     }
