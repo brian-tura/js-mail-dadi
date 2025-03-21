@@ -16,3 +16,8 @@ if(mailCheck == true){
 else{
     console.log("Accesso negato");
 }
+
+// Esercizio Dadi
+let diceBot = Math.floor(Math.random() * 5) + 1;
+let dicePlayer = Math.floor(Math.random() * 5) + 1;
+
